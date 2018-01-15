@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/*-----  首页  ---*/
+/*-----  公共头  ---*/
 .head-top{
 	height:1.68rem;
 	background:#f2f2f2;
@@ -80,6 +80,7 @@
 	border-color:rgb(237, 91, 0);
 }
 
+/*----------  轮播图   -------------*/
 .swiper-container{
 	height:3.75rem;
 	position:relative;
@@ -90,6 +91,7 @@
 	height:100%;
 }
 
+/*--------- 推荐  ------------*/
 .cell_items{
 	height:1.52rem;
 	font-size:0;
@@ -209,28 +211,30 @@
 	font-size:0.28rem;
 	line-height:0.4rem;
 }
-footer{
+
+
+.shoujilist li{
 	width:100%;
-	height:1.04rem;
-	position:fixed;
-	left:0; 
-	bottom:0;
-	background:#fff;
-	z-index:99;
+	float:none;
 }
-.tab{
-	color:#999;
-	width:25%;
-	height:100%;
-	float:left;
-	text-align: center;
-	font-size:.24rem;
+.shoujilist li .img{
+	position:relative;
+	width:100%;
+	height:3.6rem;
 }
-.tab-active{
-	color:#ff6700;
+.shoujilist li .img .jian{
+	width:1.3rem;
+	height:.4rem;
 }
-.tab img{
-	width:.5rem;
-	height:.5rem;
-	margin:.06rem auto;
+.shoujilist li .info{
+	padding:0.24rem 0.3rem;
+}
+.shoujilist li .info .row {
+	line-height: 0.32rem;
+}
+.shoujilist li .info .row .title{
+	font-size:0.32rem;
+}
+.shoujilist li .info .row .price{
+	font-size:0.32rem;
 }

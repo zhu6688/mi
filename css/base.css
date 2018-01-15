@@ -38,6 +38,36 @@ a{
 	float:right;
 }
 
+/*------- tab切换导航  --------*/
+footer{
+	width:100%;
+	height:1.04rem;
+	position:fixed;
+	left:0; 
+	bottom:0;
+	background:#fff;
+	z-index:99;
+}
+.tab{
+	color:#999;
+	width:25%;
+	height:100%;
+	float:left;
+	text-align: center;
+	font-size:.24rem;
+}
+.tab-active{
+	color:#ff6700;
+}
+.tab img{
+	width:.5rem;
+	height:.5rem;
+	margin:.06rem auto;
+}
+
+
+
+
 @media screen and (min-width: 320px) {
   html {
     font-size: 42.66666667px;
