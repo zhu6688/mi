@@ -224,6 +224,7 @@ footer{
 	float:left;
 	text-align: center;
 	font-size:.24rem;
+	z-index:99;
 }
 .tab-active{
 	color:#ff6700;
