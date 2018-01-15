@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* --------------------------------------------------[Reset] */
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, form, input, textarea, th, td { margin: 0; padding: 0; }
+ul, ol { list-style:none; }
+img { border: 0; display:block; }
+table{ border-collapse: collapse; border-spacing: 0; }
+body{font-family:Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif;}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+em,i{ font-style: normal; }
+.clearfix:after {
+    display: block;
+    content: "";
+    clear:both;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}
+.layout-min{
+	max-width:750px;
+	min-width:320px;
+	margin:0 auto;
+	margin-top:1.68rem;
+	margin-bottom:1.04rem;
+}
+.divline{
+	height: 0.16rem;
+    background-color: rgb(245, 245, 245);
+}
+.divline8{
+	height: 0.08rem;
+    background-color: rgb(255,255,255);
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66666667px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 53.33333333px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 56.53333333px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 85.33333333px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 96px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
