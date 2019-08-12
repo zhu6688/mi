@@ -160,7 +160,30 @@
 			我的
 		</div>
 	</footer>
-	
+	<!-- 遮罩层 -->
+	<div class="dialog" id="move">
+		<p class="opa"></p>
+		<div class="inner">
+			<div class="row">
+				这是一段话
+			</div>
+			<div class="row">
+				这是一段话
+			</div>
+			<div class="row">
+				这是一段话
+			</div>
+			<div class="row">
+				这是一段话
+			</div>
+			<div class="row">
+				这是一段话
+			</div>
+			<div class="row">
+				这是一段话
+			</div>
+		</div>
+	</div>
 
 <script>
 $(function(){
@@ -175,7 +198,15 @@ $(function(){
 		loop:false,
 		effect : 'slide',
 		lazy:true,
-	});     
+	});   
+	document.addEventListener('click',function(){
+		document.querySelector('.dialog').style.display = 'none';
+	})
+
+	document.getElementById('move').addEventListener('touchmove',function(ev){
+		ev.preventDefault();
+		console.log(111)
+	}) 
 })
 </script>
 
